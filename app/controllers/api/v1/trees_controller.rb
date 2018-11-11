@@ -3,7 +3,7 @@ class Api::V1::TreesController < ApplicationController
 
   def show
   end
-  
+
   def index
     @trees = Tree.all
     render json: @trees
@@ -21,7 +21,7 @@ class Api::V1::TreesController < ApplicationController
   private
 
   def tree_params
-    params.permit(:title, :content)
+    params.permit(:latitude, :longitude, :zipcode, :address, :health, :status, :tree_id)
   end
 
   def find_tree

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latitude: 9.99
+  longitude: 9.99
+  zipcode: 1
+  address: MyString
+  health: MyString
+  status: MyString
+  tree_id: 1
+
+two:
+  latitude: 9.99
+  longitude: 9.99
+  zipcode: 1
+  address: MyString
+  health: MyString
+  status: MyString
+  tree_id: 1
